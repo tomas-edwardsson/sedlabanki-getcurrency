@@ -1,5 +1,5 @@
 Name:		sedlabanki-getcurrency
-Version:	1.0.3
+Version:	1.0.4
 Release:	1%{?dist}
 Summary:	Fetch currency rates via sedlabanki xml interface
 
@@ -39,4 +39,7 @@ install -D -m 755 %{name} $RPM_BUILD_ROOT/%{_bindir}/%{name}
 
 
 %changelog
+* Sun Sep 01 2013 Tomas Edwardsson <tommi@tommi.org> 1.0.4-1
+- new package built with tito
+
 
